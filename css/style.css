@@ -1,0 +1,265 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+  
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.tb-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.float-right {
+    float: right !important;
+    position: relative;
+}
+
+.reduce-image-scale {
+    transform: scale(0.7, 0.7);
+}
+
+
+.little-container a {
+    font-size: 10px;
+    font-weight: 700;
+    border-bottom: 2px solid #ffffff;
+    color: #000000 !important;
+    padding: 0;
+
+}
+
+
+
+.little-container a:hover {
+    color: #000000 !important;
+    border-bottom: 2px solid #000000;
+    text-decoration: none;
+}
+
+.little-container {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px;
+}
+
+.little-container li {
+    display: inline;
+}
+
+.profile-button button {
+    position: absolute;
+    padding: 30px 40px;
+    margin-left: 50px;
+    border: none;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: none;
+    bottom: 0;
+    background-color: #b4d3d3;
+    color: #fff;
+    z-index: 6;
+}
+
+.name-block {
+    padding-top: 20%;
+    margin-left: -40px;
+    z-index: 30;
+}
+
+.name-block h1 {
+    letter-spacing: 0.2em;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.next-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 22.5px 31px;
+    border: none;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: none;
+    margin-top: 480px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.float-left {
+    float: left !important;
+    position: relative;
+}
+
+nav a {
+    color: black !important;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home-page {
+  height: 100vh;
+}
+
+.nav-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.explore-button {
+    display: block;
+    text-align: center;
+    background-color: #b4d3d3;
+    color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    padding: 9px 16px;
+    border-radius: 23px;
+}
+
+.main-block {
+    position: absolute;
+    height: calc(100% - 120px);
+    left: 255.55px;
+    width: 55%;
+    bottom: 0;
+    background-color: #e2e8e8;
+    z-index: 3;
+}
+
+@media only screen and (min-width: 940px) {
+    .main-block {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .main-block {
+        max-width: 940px;
+    }
+}
+
+.left-block {
+    position: absolute;
+    width: 255.55px;
+    height: 100%;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 4;
+}
+
+.right-block {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 70%;
+    max-width: 1500px;
+    background-color: #b4d3d3;
+    z-index: 1;
+}
+
+.mainbar {
+    position: absolute;
+    top: 0;
+    margin-left: 25px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.search-menu {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    right: 0;
+    padding-right: 25px;
+    z-index: 12;
+}
+
+.main-title {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    right: 50%;
+    z-index: 11;
+}
+
+.mainbar ul {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.mainbar a {
+    color: #000000 !important;
+}
+
+.mainbar a:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.mainbar li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.right-list {
+    margin-top: 50px;
+    padding-right: 22%;
+    color: lightslategrey;
+    list-style-type: none;
+}
+
+.right-bottom-block {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 33.33%;
+    width: 100%;
+    z-index: 2;
+    background-color: #ffffff;
+}
+
+.left-margin {
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    width: 50px;
+    background-color: #ffffff;
+}
+
+

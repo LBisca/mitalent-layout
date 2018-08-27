@@ -26,10 +26,6 @@ html {
     padding-bottom: 20px;
 }
 
-.float-right {
-    float: right !important;
-    position: relative;
-}
 
 .reduce-image-scale {
     transform: scale(0.7, 0.7);
@@ -67,6 +63,19 @@ html {
 
 .little-container li {
     display: inline;
+}
+
+.light-blue-hover {
+    color: #000000 !important;
+}
+
+.light-blue-hover:hover {
+    color: #b4d3d3 !important;
+    text-decoration: none !important;
+}
+
+.no-margin {
+    margin: 0px;
 }
 
 .profile-button button {
@@ -112,11 +121,23 @@ html {
     color: #000000;
 }
 
+.margin-right {
+    margin-right: 12px;
+}
 
+.float-right {
+    float: right !important;
+    position: relative;
+}
 
 .float-left {
     float: left !important;
     position: relative;
+}
+
+.side-by-side {
+    display: block;
+    float: left;
 }
 
 nav a {
@@ -151,6 +172,60 @@ nav a {
     border-radius: 23px;
 }
 
+.trending-button {
+    position: relative;
+    float: right;
+    padding: 10px 50px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 5px !important;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border: none;
+}
+
+.arrow-button {
+    position: absolute;
+    bottom: 0;
+    margin: 21px;
+    margin-left: 29px;
+    z-index: 10;
+}
+
+.left-title {
+    position: relative;
+    padding: 20px;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.minor-block {
+    height: 340px;
+    background-color: #b4d3d3;
+    margin-top: 60px;
+}
+
+.bullets {
+    width: 4px;
+    height: 4px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
 .main-block {
     position: absolute;
     height: calc(100% - 120px);
@@ -159,6 +234,19 @@ nav a {
     bottom: 0;
     background-color: #e2e8e8;
     z-index: 3;
+}
+
+.dropped-text {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0;
+    background-color: white;
+    color: black;
+
 }
 
 @media only screen and (min-width: 940px) {

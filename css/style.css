@@ -35,9 +35,10 @@ html {
 .little-container a {
     font-size: 10px;
     font-weight: 700;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     color: #000000 !important;
     padding: 0;
+    padding-bottom: 4px;
 
 }
 
@@ -45,7 +46,7 @@ html {
 
 .little-container a:hover {
     color: #000000 !important;
-    border-bottom: 2px solid #000000;
+    border-bottom: 1px solid #000000;
     text-decoration: none;
 }
 
@@ -227,10 +228,16 @@ nav a {
 }
 
 .main-block {
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     position: absolute;
     height: calc(100% - 120px);
     left: 255.55px;
-    width: 55%;
+    width: calc(100% - 615.55px);
     bottom: 0;
     background-color: #e2e8e8;
     z-index: 3;
@@ -275,7 +282,7 @@ nav a {
     right: 0;
     top: 0;
     width: 40%;
-    height: 70%;
+    height: 100%;
     max-width: 1500px;
     background-color: #b4d3d3;
     z-index: 1;
@@ -327,23 +334,6 @@ nav a {
     padding-right: 5px;
 }
 
-.right-list {
-    margin-top: 50px;
-    padding-right: 22%;
-    color: lightslategrey;
-    list-style-type: none;
-}
-
-.right-bottom-block {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 33.33%;
-    width: 100%;
-    z-index: 2;
-    background-color: #ffffff;
-}
-
 .left-margin {
     position: absolute;
     left: 0;
@@ -352,4 +342,63 @@ nav a {
     background-color: #ffffff;
 }
 
+.list-padding {
+    padding: 57px;
+    margin-bottom: 0px;
+}
+
+.list-block {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 360px;
+    height: 260px;
+}
+
+.numbered-list:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.numbered-list {
+    color: #000000;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.mini-bar {
+    float: right;
+    height: 2px;
+    background-color: black;
+    width: 50px;
+    opacity: 0;
+    margin: 7px;
+    margin-right: 90px;
+}
+
+.list-bar {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #96969b;
+    transition: 0.4s color;
+}
+
+.list-bar:hover {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.list-bar:hover .mini-bar {
+    opacity: 1;
+    filter:alpha(opacity=100);
+    transition: 0.4s opacity;
+}
 
